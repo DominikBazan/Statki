@@ -1,4 +1,4 @@
-package java.main;
+package main.java;
 
 class Pole
 {
@@ -10,27 +10,27 @@ class Pole
         wolne = true;
     }
 
-    public void setTrafienie(boolean t) {
+    void setTrafienie(boolean t) {
         trafienie = t;
     }
 
-    public boolean getTrafienie() {
+    boolean getTrafienie() {
         return trafienie;
     }
 
-    public void setWolne(boolean t) {
+    void setWolne(boolean t) {
         wolne = t;
     }
 
-    public boolean getWolne() {
+    boolean getWolne() {
         return wolne;
     }
 
-    public void setNumerStatku(int t) {
+    void setNumerStatku(int t) {
         numerStatku = t;
     }
 
-    public int getNumerStatku() {
+    int getNumerStatku() {
         return numerStatku;
     }
 }
